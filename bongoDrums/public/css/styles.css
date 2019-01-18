@@ -1,0 +1,54 @@
+.board-container {
+  margin: 0 auto;
+  text-align: center;
+  display: table;
+}
+body{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+canvas{
+  width: 100%;
+  height: 100%;
+}
+
+.game-square {
+  position: aboslute; 
+  color: white;
+  border: 3px solid white;
+  width:120px;
+  height: 120px; /* Fix height to equal width */
+  font-size: 50px;
+}
+.smallWriting {
+  font-size: 20px; 
+}
+
+#change { 
+  transition: all 1s ease-in-out; 
+}
+#change:target {
+  transform: scale(1.1);
+}
+
+body {
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+}
+
+.jumbotron {
+  background: none;
+  color: white;
+}
+
+h3 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+
